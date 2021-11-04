@@ -14,6 +14,7 @@ public class Exceptions {
                 System.out.println("Error on index " + i + ", value " + myList.get(i) + ". Reason: " + e);
             }
         }
+        System.out.println("Program running fine!");
     }
     
 }
