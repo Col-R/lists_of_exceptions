@@ -11,6 +11,7 @@ public class Exceptions {
                 Integer castedValue = (Integer) myList.get(i);
             } catch (ClassCastException e) {
                 //TODO: handle exception
+                System.out.println("Error on index " + i + ", value " + myList.get(i) + ". Reason: " + e);
             }
         }
     }
